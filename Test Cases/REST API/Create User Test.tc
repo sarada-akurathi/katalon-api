@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create User Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff44a108-fb58-476c-ae60-adc53251cbe3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>316c2445-a9fe-42d0-a897-4c93adf1ef60</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ff6442d-9c73-416a-bfe1-b2a7a37b3a49</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Script'</defaultValue>
+      <description></description>
+      <id>316c2445-a9fe-42d0-a897-4c93adf1ef60</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tech Leader Script'</defaultValue>
+      <description></description>
+      <id>7ff6442d-9c73-416a-bfe1-b2a7a37b3a49</id>
+      <masked>false</masked>
+      <name>job</name>
+   </variable>
+</TestCaseEntity>
