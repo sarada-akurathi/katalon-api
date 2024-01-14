@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login API Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f0a66a0-e186-4d42-8da7-7120679788f6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8c1c951-aab9-487a-84db-2a6c8332de57</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30cf5a3e-2ebc-4899-81b3-538e208db185</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'eve.holt@reqres.in'</defaultValue>
+      <description></description>
+      <id>c8c1c951-aab9-487a-84db-2a6c8332de57</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'pistol'</defaultValue>
+      <description></description>
+      <id>30cf5a3e-2ebc-4899-81b3-538e208db185</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

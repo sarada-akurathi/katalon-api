@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Get User</name>
+   <name>Update User - PATCH</name>
    <tag></tag>
-   <elementGuidId>e3c1ec4c-7e14-4e82-b63d-056676691670</elementGuidId>
+   <elementGuidId>8561ba41-554f-4f4e-8d5b-61493d43e9ab</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;${username}\&quot;,\n    \&quot;job\&quot;: \&quot;${job}\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>92839bd8-da27-4ce2-a020-415a890421c4</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.2.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users?page=${userid}</restUrl>
+   <restRequestMethod>PATCH</restRequestMethod>
+   <restUrl>https://reqres.in/api/users/2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -26,11 +38,18 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'2'</defaultValue>
+      <defaultValue>'Raghav'</defaultValue>
       <description></description>
-      <id>c934eabc-6ed8-4873-bc8c-c9ac8d509f3b</id>
+      <id>69247fc8-0255-4de2-a529-f16c1c6bde2e</id>
       <masked>false</masked>
-      <name>userid</name>
+      <name>username</name>
+   </variables>
+   <variables>
+      <defaultValue>'Teacher'</defaultValue>
+      <description></description>
+      <id>c0dcb10d-143b-446b-b132-1a1de6a6e394</id>
+      <masked>false</masked>
+      <name>job</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

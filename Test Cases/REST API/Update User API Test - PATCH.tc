@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update User API Test - PATCH</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84c33d38-894b-4483-af61-69ced1813109</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49175935-5e93-4133-a4fe-edcd8d296d52</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f16cf6d9-29cd-4636-9dc9-5abdc3cad03f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Abhijit Saxena'</defaultValue>
+      <description></description>
+      <id>49175935-5e93-4133-a4fe-edcd8d296d52</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Trainer'</defaultValue>
+      <description></description>
+      <id>f16cf6d9-29cd-4636-9dc9-5abdc3cad03f</id>
+      <masked>false</masked>
+      <name>job</name>
+   </variable>
+</TestCaseEntity>

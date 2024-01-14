@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('REST API/Get User'))
+response = WS.sendRequest(findTestObject('REST API/Login', [('email') : 'eve.holt@reqres.in', ('password') : 'pistol']))
 
 WS.verifyResponseStatusCode(response, 200)
 
