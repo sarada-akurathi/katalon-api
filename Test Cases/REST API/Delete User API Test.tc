@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete User API Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a9f746e-5ad0-4414-986c-b4d214c2038e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f496a6ec-79cc-45c2-a135-fda3898eff2b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'309'</defaultValue>
+      <description></description>
+      <id>f496a6ec-79cc-45c2-a135-fda3898eff2b</id>
+      <masked>false</masked>
+      <name>userid</name>
+   </variable>
+</TestCaseEntity>

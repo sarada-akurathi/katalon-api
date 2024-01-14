@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get User API Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>047ba590-3516-40bd-9c2f-75c436462f86</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c70d701f-c52f-4306-b249-29cf65de6b75</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>c70d701f-c52f-4306-b249-29cf65de6b75</id>
+      <masked>false</masked>
+      <name>userid</name>
+   </variable>
+</TestCaseEntity>

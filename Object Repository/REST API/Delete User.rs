@@ -25,6 +25,13 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>48315aed-6680-411f-af43-05bdb9fb1bd5</id>
+      <masked>false</masked>
+      <name>userid</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

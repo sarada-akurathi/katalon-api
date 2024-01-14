@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create User Test</name>
+   <name>Create User API Test</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ff44a108-fb58-476c-ae60-adc53251cbe3</testCaseGuid>

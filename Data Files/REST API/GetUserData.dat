@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>CreateUser</name>
+   <name>GetUserData</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>42f856da-a22f-4c67-9bcc-ca715d305df2</dataFileGUID>
+   <dataFileGUID>6e4732c1-49ed-4efc-b2e6-50f4a1b4fa6b</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>+John+Smith Tech+Lead</data>
-   <data>George QA+Lead</data>
+   <data>2</data>
+   <data>309</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>username</name>
-      <size>2</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>1</columnIndex>
-      <name>job</name>
+      <name>userid</name>
       <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
